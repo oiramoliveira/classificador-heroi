@@ -5,7 +5,8 @@ let nomeHeroi //variável para armazenar o nome do herói
 let xp //variável para armazenar a experiência do herói
 
 nomeHeroi = prompt("Digite o nome do seu Herói e receba seu xp: ")//aguarda usuário digitar nome do herói
-xp = Math.floor(Math.random(1000)  * 10002)
+
+xp = Math.floor(Math.random(1000) * 10002)
 
 if(xp <= 1000){
     console.log("Seu XP é: " + xp + " Seu nível é: Ferro")
@@ -30,3 +31,4 @@ if(xp <= 1000){
 
 }else{
     console.log("Seu XP é: " + xp + "Seu nível é: Radiante")
+}
