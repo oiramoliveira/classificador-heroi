@@ -30,4 +30,3 @@ if(xp <= 1000){
 
 }else{
     console.log("Seu XP é: " + xp + "Seu nível é: Radiante")
-}
